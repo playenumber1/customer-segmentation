@@ -1,21 +1,26 @@
+# Official Quarto Publish Workflow
 name: Quarto Publish
 
+# Run on pushes to the main branch
 on:
   push:
-    branches: [ main ]
+    branches: main
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Checkout repository
+      # Step 1: Check out the repository
+      - name: Checkout
         uses: actions/checkout@v4
 
+      # Step 2: Install Quarto
       - name: Setup Quarto
-        uses: quarto-dev/quarto-actions@v2
+        uses: quarto-dev/quarto-action@v2
 
+      # Step 3: Install Python and your dependencies
       - name: Install Python and Dependencies
         uses: actions/setup-python@v5
         with:
@@ -25,11 +30,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install jupyter pandas numpy matplotlib seaborn scikit-learn
 
-      - name: Render Quarto Project
-        run: quarto render
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # Step 4: Render and Publish the site
+      - name: Render and Publish
+        uses: quarto-dev/quarto-action@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          target: gh-pages
