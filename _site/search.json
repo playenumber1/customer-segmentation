@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Customer Segmentation Project",
+    "section": "",
+    "text": "NoteThe Business Goal\n\n\n\nA shopping mall wants to understand its customers better to improve marketing and increase sales. The objective is to identify distinct customer segments based on their demographic information and spending behavior.\n\n\nThis project demonstrates a complete data science workflow—from data cleaning and exploration to machine learning modeling and visualization—to deliver actionable business insights.\n\n\n\nThe analysis followed a structured, four-step process to ensure robust and reliable results.\n\nData Exploration & Cleaning: Loaded and inspected the customer data to understand its structure and quality.\nFeature Engineering: Selected key features (Annual Income, Spending Score) and scaled them for optimal model performance.\nClustering with K-Means: Applied the K-Means algorithm, using the Elbow Method to determine the ideal number of customer segments.\nVisualization & Interpretation: Created a clear visual representation of the clusters and analyzed their characteristics to provide business recommendations.\n\n\n\n\n\nThe analysis revealed five distinct customer groups. Understanding these groups allows for highly targeted marketing strategies.\n\n\n\nHigh Income, High Spending This is the most valuable group. Marketing efforts should focus on retention and loyalty programs.\n\n\n\nHigh Income, Low Spending This group has high potential. They could be targeted with premium offers and personalized recommendations to encourage spending.\n\n\n\n\nLow Income, High Spending While they spend a lot, they are at risk of financial churn. Marketing should focus on value and discounts.\n\n\n\nAverage/Low Income & Spending These are the largest segments. They respond well to sales, bulk promotions, and budget-friendly options.\n\n\n\nThe final visualization below clearly shows these five segments, with the red ‘X’ marks representing the center of each group.\n\n\n\nA scatter plot showing the five distinct customer segments identified by the K-Means algorithm.\n\n\n\n\n\n\nThis project was built using a modern data science stack.\n\n\n\n\n\n\nTipTechnologies Used\n\n\n\n    \n\n\n\n\n\n\nFor a detailed, step-by-step walkthrough of the code, methodology, and intermediate results, you can explore the complete interactive analysis.\n\n👉 Go to Full Analysis Notebook"
+  },
+  {
+    "objectID": "index.html#the-process-at-a-glance",
+    "href": "index.html#the-process-at-a-glance",
+    "title": "Customer Segmentation Project",
+    "section": "",
+    "text": "The analysis followed a structured, four-step process to ensure robust and reliable results.\n\nData Exploration & Cleaning: Loaded and inspected the customer data to understand its structure and quality.\nFeature Engineering: Selected key features (Annual Income, Spending Score) and scaled them for optimal model performance.\nClustering with K-Means: Applied the K-Means algorithm, using the Elbow Method to determine the ideal number of customer segments.\nVisualization & Interpretation: Created a clear visual representation of the clusters and analyzed their characteristics to provide business recommendations."
+  },
+  {
+    "objectID": "index.html#key-findings-actionable-insights",
+    "href": "index.html#key-findings-actionable-insights",
+    "title": "Customer Segmentation Project",
+    "section": "",
+    "text": "The analysis revealed five distinct customer groups. Understanding these groups allows for highly targeted marketing strategies.\n\n\n\nHigh Income, High Spending This is the most valuable group. Marketing efforts should focus on retention and loyalty programs.\n\n\n\nHigh Income, Low Spending This group has high potential. They could be targeted with premium offers and personalized recommendations to encourage spending.\n\n\n\n\nLow Income, High Spending While they spend a lot, they are at risk of financial churn. Marketing should focus on value and discounts.\n\n\n\nAverage/Low Income & Spending These are the largest segments. They respond well to sales, bulk promotions, and budget-friendly options.\n\n\n\nThe final visualization below clearly shows these five segments, with the red ‘X’ marks representing the center of each group.\n\n\n\nA scatter plot showing the five distinct customer segments identified by the K-Means algorithm."
+  },
+  {
+    "objectID": "index.html#technical-toolkit",
+    "href": "index.html#technical-toolkit",
+    "title": "Customer Segmentation Project",
+    "section": "",
+    "text": "This project was built using a modern data science stack.\n\n\n\n\n\n\nTipTechnologies Used"
+  },
+  {
+    "objectID": "index.html#view-the-full-analysis",
+    "href": "index.html#view-the-full-analysis",
+    "title": "Customer Segmentation Project",
+    "section": "",
+    "text": "For a detailed, step-by-step walkthrough of the code, methodology, and intermediate results, you can explore the complete interactive analysis.\n\n👉 Go to Full Analysis Notebook"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a passionate and aspiring data scientist with a knack for turning data into meaningful stories and actionable insights. I love the entire data science process—from cleaning and exploring raw data to building machine learning models and presenting findings in a clear, compelling way.\nThis project is a showcase of my skills in Python, machine learning, and data visualization. I believe that the best data science projects are not just technically sound but also solve real-world problems and communicate their value effectively.\n\n\n\nI am constantly learning and expanding my toolkit. Here are some of the areas I’m most passionate about:\n\n\n\n\nProgramming: Python, SQL\nData Manipulation: Pandas, NumPy\nData Visualization: Matplotlib, Seaborn, Plotly\nMachine Learning: Scikit-learn (Regression, Classification, Clustering)\nDeployment: Git, GitHub Pages, Quarto\n\n\n\n\n\nDiscovering patterns in customer behavior\nBuilding predictive models for business challenges\nCreating clear and insightful data dashboards\nLearning about NLP and deep learning\nEffective data storytelling and communication\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportantFrom Data to Decisions\n\n\n\nFor me, a successful project isn’t just about a high accuracy score. It’s about understanding the business context, asking the right questions, and delivering results that can drive real decisions. I strive to make my work reproducible, well-documented, and easy for anyone to understand.\n\n\n\n\n\n\nI’m always open to discussing new opportunities, interesting projects, or just chatting about data science. Feel free to reach out!\n\nGitHub LinkedIn Email"
+  },
+  {
+    "objectID": "about.html#my-skills-interests",
+    "href": "about.html#my-skills-interests",
+    "title": "About Me",
+    "section": "",
+    "text": "I am constantly learning and expanding my toolkit. Here are some of the areas I’m most passionate about:\n\n\n\n\nProgramming: Python, SQL\nData Manipulation: Pandas, NumPy\nData Visualization: Matplotlib, Seaborn, Plotly\nMachine Learning: Scikit-learn (Regression, Classification, Clustering)\nDeployment: Git, GitHub Pages, Quarto\n\n\n\n\n\nDiscovering patterns in customer behavior\nBuilding predictive models for business challenges\nCreating clear and insightful data dashboards\nLearning about NLP and deep learning\nEffective data storytelling and communication"
+  },
+  {
+    "objectID": "about.html#my-project-philosophy",
+    "href": "about.html#my-project-philosophy",
+    "title": "About Me",
+    "section": "",
+    "text": "ImportantFrom Data to Decisions\n\n\n\nFor me, a successful project isn’t just about a high accuracy score. It’s about understanding the business context, asking the right questions, and delivering results that can drive real decisions. I strive to make my work reproducible, well-documented, and easy for anyone to understand."
+  },
+  {
+    "objectID": "about.html#lets-connect",
+    "href": "about.html#lets-connect",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m always open to discussing new opportunities, interesting projects, or just chatting about data science. Feel free to reach out!\n\nGitHub LinkedIn Email"
+  },
+  {
+    "objectID": "Customer_Analysis.html",
+    "href": "Customer_Analysis.html",
+    "title": "1.Importing Libraries",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom sklearn.cluster import KMeans\nfrom sklearn.preprocessing import StandardScaler\nsns.set_style('whitegrid')\nplt.style.use('fivethirtyeight')"
+  },
+  {
+    "objectID": "Customer_Analysis.html#loading-and-inspecting-the-data",
+    "href": "Customer_Analysis.html#loading-and-inspecting-the-data",
+    "title": "1.Importing Libraries",
+    "section": "2.Loading and Inspecting the Data",
+    "text": "2.Loading and Inspecting the Data\n\ndf = pd.read_csv('Mall_Customers.csv')\n\nprint(df.head())\nprint(df.info())\nprint(df.describe())\n\n   CustomerID  Gender  Age  Annual Income (k$)  Spending Score (1-100)\n0           1    Male   19                  15                      39\n1           2    Male   21                  15                      81\n2           3  Female   20                  16                       6\n3           4  Female   23                  16                      77\n4           5  Female   31                  17                      40\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 200 entries, 0 to 199\nData columns (total 5 columns):\n #   Column                  Non-Null Count  Dtype \n---  ------                  --------------  ----- \n 0   CustomerID              200 non-null    int64 \n 1   Gender                  200 non-null    object\n 2   Age                     200 non-null    int64 \n 3   Annual Income (k$)      200 non-null    int64 \n 4   Spending Score (1-100)  200 non-null    int64 \ndtypes: int64(4), object(1)\nmemory usage: 7.9+ KB\nNone\n       CustomerID         Age  Annual Income (k$)  Spending Score (1-100)\ncount  200.000000  200.000000          200.000000              200.000000\nmean   100.500000   38.850000           60.560000               50.200000\nstd     57.879185   13.969007           26.264721               25.823522\nmin      1.000000   18.000000           15.000000                1.000000\n25%     50.750000   28.750000           41.500000               34.750000\n50%    100.500000   36.000000           61.500000               50.000000\n75%    150.250000   49.000000           78.000000               73.000000\nmax    200.000000   70.000000          137.000000               99.000000"
+  },
+  {
+    "objectID": "Customer_Analysis.html#performing-eda-and-visualization",
+    "href": "Customer_Analysis.html#performing-eda-and-visualization",
+    "title": "1.Importing Libraries",
+    "section": "3.Performing EDA and Visualization",
+    "text": "3.Performing EDA and Visualization\n\ndf.rename(columns={'Annual Income (k$)': 'Income', 'Spending Score (1-100)': 'SpendingScore'}, inplace=True)\nplt.figure(figsize=(15, 5))\n\nplt.subplot(1, 3, 1)\nsns.histplot(df['Age'], bins=20, kde=True)\nplt.title('Age Distribution')\n\nplt.subplot(1, 3, 2)\nsns.histplot(df['Income'], bins=20, kde=True, color='green')\nplt.title('Annual Income Distribution')\n\nplt.subplot(1, 3, 3)\nsns.histplot(df['SpendingScore'], bins=20, kde=True, color='red')\nplt.title('Spending Score Distribution')\n\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "Customer_Analysis.html#data-preprocessing",
+    "href": "Customer_Analysis.html#data-preprocessing",
+    "title": "1.Importing Libraries",
+    "section": "4.Data Preprocessing",
+    "text": "4.Data Preprocessing\n\n#Select_the_features\nX = df[['Income', 'SpendingScore']]\n\n#Scale_the_data\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)"
+  },
+  {
+    "objectID": "Customer_Analysis.html#find-the-optimal-number-of-clusters-the-elbow-method",
+    "href": "Customer_Analysis.html#find-the-optimal-number-of-clusters-the-elbow-method",
+    "title": "1.Importing Libraries",
+    "section": "5.Find the Optimal Number of Clusters (The Elbow Method)",
+    "text": "5.Find the Optimal Number of Clusters (The Elbow Method)\n\nwcss = []\nfor i in range(1, 11):\n    kmeans = KMeans(n_clusters=i, init='k-means++', random_state=42)\n    kmeans.fit(X_scaled)\n    wcss.append(kmeans.inertia_)\n\nplt.figure(figsize=(10, 6))\nplt.plot(range(1, 11), wcss, marker='o', linestyle='--')\nplt.title('The Elbow Method')\nplt.xlabel('Number of clusters')\nplt.ylabel('WCSS')\nplt.show()"
+  },
+  {
+    "objectID": "Customer_Analysis.html#build-and-apply-the-k-means-model",
+    "href": "Customer_Analysis.html#build-and-apply-the-k-means-model",
+    "title": "1.Importing Libraries",
+    "section": "6.Build and Apply the K-Means Model",
+    "text": "6.Build and Apply the K-Means Model\n\nkmeans = KMeans(n_clusters=5, init='k-means++', random_state=42)\ncluster_labels = kmeans.fit_predict(X_scaled)\n\ndf['Cluster'] = cluster_labels"
+  },
+  {
+    "objectID": "Customer_Analysis.html#visualize-and-interpret-the-clusters",
+    "href": "Customer_Analysis.html#visualize-and-interpret-the-clusters",
+    "title": "1.Importing Libraries",
+    "section": "7.Visualize and Interpret the Clusters",
+    "text": "7.Visualize and Interpret the Clusters\n\nplt.figure(figsize=(12, 8))\nsns.scatterplot(x='Income', y='SpendingScore', hue='Cluster', data=df, palette='viridis', s=100, alpha=0.9)\n\ncentroids = scaler.inverse_transform(kmeans.cluster_centers_)\nplt.scatter(centroids[:, 0], centroids[:, 1], s=300, c='red', marker='X', label='Centroids')\n\nplt.title('Customer Segments', fontsize=16)\nplt.xlabel('Annual Income (k$)', fontsize=12)\nplt.ylabel('Spending Score (1-100)', fontsize=12)\nplt.legend()\n\nplt.savefig('cluster_plot.png', dpi=300, bbox_inches='tight')\n# -------------------\n\nplt.show()"
+  },
+  {
+    "objectID": "Customer_Analysis.html#analyze-the-clusters",
+    "href": "Customer_Analysis.html#analyze-the-clusters",
+    "title": "1.Importing Libraries",
+    "section": "8.Analyze the Clusters",
+    "text": "8.Analyze the Clusters\n\n# Analyze the characteristics of each cluster\nprint(df.groupby('Cluster').agg({\n    'Age': 'mean',\n    'Income': 'mean',\n    'SpendingScore': 'mean',\n    'CustomerID': 'count'\n}).rename(columns={'CustomerID': 'NumCustomers'}))\n\n               Age     Income  SpendingScore  NumCustomers\nCluster                                                   \n0        42.716049  55.296296      49.518519            81\n1        32.692308  86.538462      82.128205            39\n2        25.272727  25.727273      79.363636            22\n3        41.114286  88.200000      17.114286            35\n4        45.217391  26.304348      20.913043            23"
+  }
+]

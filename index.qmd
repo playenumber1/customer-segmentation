@@ -1,0 +1,89 @@
+---
+title: "Customer Segmentation Project"
+author: "Makhdoom Zaheer Ahmed"
+image: "cluster_plot.png"
+links:
+    - icon: github
+      text: GitHub Repo
+      href: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
+    - icon: linkedin
+      text: LinkedIn Profile
+      href: https://www.linkedin.com/in/your-profile/
+---
+
+# 🎯 Uncovering Customer Insights with Machine Learning
+
+::: {.callout-note}
+## The Business Goal
+
+A shopping mall wants to understand its customers better to improve marketing and increase sales. The objective is to identify distinct customer segments based on their demographic information and spending behavior.
+:::
+
+This project demonstrates a complete data science workflow—from data cleaning and exploration to machine learning modeling and visualization—to deliver actionable business insights.
+
+---
+
+## 📊 The Process at a Glance
+
+The analysis followed a structured, four-step process to ensure robust and reliable results.
+
+1.  **Data Exploration & Cleaning:** Loaded and inspected the customer data to understand its structure and quality.
+2.  **Feature Engineering:** Selected key features (`Annual Income`, `Spending Score`) and scaled them for optimal model performance.
+3.  **Clustering with K-Means:** Applied the K-Means algorithm, using the Elbow Method to determine the ideal number of customer segments.
+4.  **Visualization & Interpretation:** Created a clear visual representation of the clusters and analyzed their characteristics to provide business recommendations.
+
+---
+
+## 🔍 Key Findings & Actionable Insights
+
+The analysis revealed **five distinct customer groups**. Understanding these groups allows for highly targeted marketing strategies.
+
+
+::: {g-col-6}
+### 💎 **Target Customers**
+*High Income, High Spending*
+This is the most valuable group. Marketing efforts should focus on retention and loyalty programs.
+
+### 🤔 **Careful Customers**
+*High Income, Low Spending*
+This group has high potential. They could be targeted with premium offers and personalized recommendations to encourage spending.
+
+::: {g-col-6}
+### ⚡ **Careless Customers**
+*Low Income, High Spending*
+While they spend a lot, they are at risk of financial churn. Marketing should focus on value and discounts.
+
+### 🧘 **Sensible & Standard Customers**
+*Average/Low Income & Spending*
+These are the largest segments. They respond well to sales, bulk promotions, and budget-friendly options.
+:::
+:::
+
+The final visualization below clearly shows these five segments, with the red 'X' marks representing the center of each group.
+
+![A scatter plot showing the five distinct customer segments identified by the K-Means algorithm.](cluster_plot.png){width="80%" fig-align="center"}
+
+---
+
+## 🛠️ Technical Toolkit
+
+This project was built using a modern data science stack.
+
+::: {.callout-tip}
+## Technologies Used
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white)
+![Quarto](https://img.shields.io/badge/Quarto-397AAB?style=flat&logo=quarto&logoColor=white)
+:::
+
+---
+
+## 📈 View the Full Analysis
+
+For a detailed, step-by-step walkthrough of the code, methodology, and intermediate results, you can explore the complete interactive analysis.
+
+::: {.center-text}
+[**👉 Go to Full Analysis Notebook**](Customer_Analysis.ipynb)
+:::

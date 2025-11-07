@@ -1,0 +1,55 @@
+---
+title: "About Me"
+---
+
+# Hi, I'm Makhdoom Zaheer Ahmed 👋
+
+I'm a passionate and aspiring data scientist with a knack for turning data into meaningful stories and actionable insights. I love the entire data science process—from cleaning and exploring raw data to building machine learning models and presenting findings in a clear, compelling way.
+
+This project is a showcase of my skills in Python, machine learning, and data visualization. I believe that the best data science projects are not just technically sound but also solve real-world problems and communicate their value effectively.
+
+---
+
+## 🛠️ My Skills & Interests
+
+I am constantly learning and expanding my toolkit. Here are some of the areas I'm most passionate about:
+
+::: {#skills .grid}
+::: {g-col-6}
+### Technical Skills
+-   **Programming:** Python, SQL
+-   **Data Manipulation:** Pandas, NumPy
+-   **Data Visualization:** Matplotlib, Seaborn, Plotly
+-   **Machine Learning:** Scikit-learn (Regression, Classification, Clustering)
+-   **Deployment:** Git, GitHub Pages, Quarto
+:::
+
+::: {g-col-6}
+### Interests
+-   Discovering patterns in customer behavior
+-   Building predictive models for business challenges
+-   Creating clear and insightful data dashboards
+-   Learning about NLP and deep learning
+-   Effective data storytelling and communication
+:::
+:::
+
+---
+
+## 💡 My Project Philosophy
+
+::: {.callout-important}
+## From Data to Decisions
+
+For me, a successful project isn't just about a high accuracy score. It's about understanding the business context, asking the right questions, and delivering results that can drive real decisions. I strive to make my work reproducible, well-documented, and easy for anyone to understand.
+:::
+
+---
+
+## 📬 Let's Connect!
+
+I'm always open to discussing new opportunities, interesting projects, or just chatting about data science. Feel free to reach out!
+
+::: {.center-text}
+[**GitHub**](https://github.com/YOUR_USERNAME){.btn-action .btn-action-primary} [**LinkedIn**](https://www.linkedin.com/in/your-profile/){.btn-action .btn-action-secondary} [**Email**](mailto:your.email@example.com){.btn-action .btn-action-secondary}
+:::
