@@ -8,7 +8,7 @@ on:
 
 # This is the job that will be run
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,9 +31,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install jupyter pandas numpy matplotlib seaborn scikit-learn
 
-      # Step 4: Render your Quarto project into a website and publish it
-      - name: Render and Publish
-        uses: quarto-dev/quarto-action@v2
+      # Step 4: Render your Quarto project into a website
+      - name: Render Quarto Project
+        run: quarto render
+
+      # Step 5: Deploy the generated website to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target: html
-          path: .
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
